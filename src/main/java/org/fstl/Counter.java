@@ -11,4 +11,10 @@ public class Counter <T> {
     public  void print(){
         System.out.println(t);
     }
+
+    public <T, U> T print2(T t, U u){
+        System.out.println(t);
+        System.out.println(u);
+        return t;
+    }
 }

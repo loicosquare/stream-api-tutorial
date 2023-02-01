@@ -138,6 +138,8 @@ public class Main {
         Counter<Integer> iCounter = new Counter<>(1);
         iCounter.print();
 
+        iCounter.print2(1, 3);
+
     }
 
 }
