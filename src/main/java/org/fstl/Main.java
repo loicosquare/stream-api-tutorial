@@ -133,6 +133,11 @@ public class Main {
                         .reduce(0.0,Double::sum);
         System.out.println(totalSal);
 
+        System.out.println("++++++++GENERIC TYPE -----------");
+
+        Counter<Integer> iCounter = new Counter<>(1);
+        iCounter.print();
+
     }
 
 }
